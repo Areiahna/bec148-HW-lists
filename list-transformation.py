@@ -17,9 +17,16 @@ print ("Grade average:", average)
 # ---------------------------------------
 # Task 3: Replace any grade below 80 with the value Failed.
 
-for x in range(len(grades)):
-    if (grades[x] < 80):
-        grades[x] = "Failed"
-        
+# New list = [95, 93, 90, 89, 88, 85, 80, 78, 76, 72]
+grades[7] = "Failed"
+grades[8] = "Failed"
+grades[9] = "Failed"
+
+# for x in range(len(grades)):
+#     if (grades[x] < 80):
+#         grades[x] = "Failed"
+
 print(grades)
+
+
 
